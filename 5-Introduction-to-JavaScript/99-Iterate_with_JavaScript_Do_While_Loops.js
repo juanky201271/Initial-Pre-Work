@@ -1,10 +1,11 @@
-// I learn to use while loops
+//
 // Setup
 var myArray = [];
+var i = 10;
 
 // Only change code below this line.
-var i = 0;
-while (i <= 4) {
+
+do {
   myArray.push(i);
   i++;
-}
+} while (i <= 10);

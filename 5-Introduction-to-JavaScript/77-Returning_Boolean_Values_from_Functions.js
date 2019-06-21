@@ -1,0 +1,8 @@
+// I learn more about functions and boolean values
+function isLess(a, b) {
+  // Fix this code
+  return a < b
+}
+
+// Change these values to test
+isLess(10, 15);
