@@ -13,7 +13,7 @@ const half = (function() {
   // change code below this line
   return function half({max, min}) {
     // use function argument destructuring
-    return (stats.max + stats.min) / 2.0;
+    return (max + min) / 2.0; // fix error, using incorrectly the var stats
   };
   // change code above this line
 

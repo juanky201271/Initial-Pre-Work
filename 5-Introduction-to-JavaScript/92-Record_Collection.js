@@ -38,6 +38,7 @@ function updateRecords(id, prop, value) {
         // delete prop
         delete collection[id][prop];
       } else {
+        // Would be better use typeof... I think
         if (prop == "tracks") {
           // array
           collection[id][prop].push(value);
@@ -49,6 +50,7 @@ function updateRecords(id, prop, value) {
     } else {
       // prop not exists
       if (value != "") {
+        // Would be better use typeof... I think
         if (prop == "tracks") {
           // array
           collection[id][prop] = [value];
